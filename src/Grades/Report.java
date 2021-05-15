@@ -87,5 +87,9 @@ public class Report {
 		System.out.println("Number Students of Students with B Scores --> " + bStudent);
 		System.out.println("Number Students of Students with C Scores --> " + cStudent);
 		System.out.println("Number Students of Students with F Scores --> " + fStudent);		
+		
+		customerInput.close();
+		grade.close();
+		
 	}
 	}
